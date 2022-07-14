@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.mainColor{
+  background-color: #802c6e;
+}
+.cart{
+  font-size: 23px;
+
+}
+.cart span {
+  padding: 0 10px;
+}
+.cart-badge{
+  position: absolute;
+  top: -18px;
+  right: -10px;
+}
+.badge{
+  padding: 0.25em 0.4em !important;
+}
+.handel-img .item img{
+  height: 21rem;
+  width: 70%;
+  /* object-fit:fill; */
+  transition: all .5s;
+}
+.handel-img .item img:hover{
+  transform: scale(1.3);
+}
+.item-title{
+  min-height: 143px;
+}
+.cart-title{
+  font-size: 1.25rem;
+  line-height: 1.2
+}
+.cart-item-img{
+  width: 30%;
+}
+.cart-item-img-detail{
+  width: 70%;
+}
+.cart-items , .price{
+  color: #802c6e;
+}
+.price{
+  font-size: 30px;
 }
